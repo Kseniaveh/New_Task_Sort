@@ -5,7 +5,7 @@ Created on Sat Dec 22 18:46:50 2018
 @author: Ксения
 """
 import datetime
-#import unittest
+
 """Сортировка простыми вставками"""
 
 def insertion(data):
@@ -28,8 +28,6 @@ print(timeEnd)
 difference = timeEnd - timeStart
 print(difference)
 
-def test1():
-    return 1
 
 """Быстрая сортировка"""
 import random
@@ -85,5 +83,3 @@ print(timeEnd)
 difference = timeEnd - timeStart
 print(difference)
 
-#if __name__ == '__main__':
-#    unittest.main()
